@@ -6,7 +6,7 @@ const PlusMinusIcon = ({ state }: any) => {
         fill="none"
         height="14"
         width="14"
-        shape-rendering="geometricPrecision"
+        shapeRendering="geometricPrecision"
         stroke="currentColor"
         strokeLinecap="round"
         strokeLinejoin="round"
@@ -14,7 +14,6 @@ const PlusMinusIcon = ({ state }: any) => {
         viewBox="0 0 24 24"
       >
         <rect x="3" y="3" width="18" height="18" rx="2" ry="2" />
-        <path d="M12 8v8" />
         <path d="M8 12h8" />
       </svg>
     );
@@ -33,6 +32,7 @@ const PlusMinusIcon = ({ state }: any) => {
         viewBox="0 0 24 24"
       >
         <rect x="3" y="3" width="18" height="18" rx="2" ry="2" />
+        <path d="M12 8v8" />
         <path d="M8 12h8" />
       </svg>
     );
