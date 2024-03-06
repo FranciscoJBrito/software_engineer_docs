@@ -4,8 +4,8 @@ const PlusMinusIcon = ({ state }: any) => {
       <svg
         data-testid="geist-icon"
         fill="none"
-        height="15"
-        width="15"
+        height="14"
+        width="14"
         shape-rendering="geometricPrecision"
         stroke="currentColor"
         strokeLinecap="round"
@@ -23,8 +23,8 @@ const PlusMinusIcon = ({ state }: any) => {
       <svg
         data-testid="geist-icon"
         fill="none"
-        height="15"
-        width="15"
+        height="14"
+        width="14"
         shapeRendering="geometricPrecision"
         stroke="currentColor"
         strokeLinecap="round"
