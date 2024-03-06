@@ -1,0 +1,71 @@
+.folder_container {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin: 8px 0px;
+}
+
+.folder_content_container_show {
+  display: block;
+  animation: fadeIn 0.2s ease-in-out;
+}
+
+.folder_content_container_no_show {
+  display: none;
+}
+
+.folder_file_container {
+  display: flex;
+  align-items: center;
+  height: 35px;
+}
+
+.folder_name {
+  color: white;
+  margin-left: 10px;
+  font-size: 0.8rem;
+  font-weight: 300;
+}
+
+.folder_name:hover {
+  color: #aaaaaa;
+}
+
+.file_name {
+  color: white;
+  margin-left: 10px;
+  font-size: 0.8rem;
+  font-weight: 300;
+}
+
+.folder_file_container [data-tree-indent] {
+  display: inline-block;
+  width: 30px;
+  height: 100%;
+  background-image: linear-gradient(
+    to right,
+    transparent 11.5px,
+    #333 11.5px,
+    #333 12.5px,
+    transparent 12.5px
+  );
+  background-repeat: no-repeat;
+  vertical-align: top;
+}
+
+.folder_file {
+  display: flex;
+  padding: 5px 0px;
+  align-items: center;
+  cursor: pointer;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}

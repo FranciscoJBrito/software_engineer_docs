@@ -1,0 +1,77 @@
+[
+  {
+    "id": "1",
+    "type": "directory",
+    "name": "Diseño y Arquitectura de Software",
+    "files": [
+      {
+        "id": "1",
+        "type": "file",
+        "name": "Practica 1.docx"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "type": "directory",
+    "name": "Algoritmos y Estructuras de Datos",
+    "files": [
+      {
+        "id": "1",
+        "type": "file",
+        "name": "Practica 2.docx"
+      },
+      {
+        "id": "2",
+        "type": "file",
+        "name": "Practica 3.docx"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "type": "directory",
+    "name": "DevOps",
+    "files": [
+      {
+        "id": "1",
+        "type": "file",
+        "name": "Practica 2.docx"
+      },
+      {
+        "id": "2",
+        "type": "file",
+        "name": "Practica 3.docx"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "type": "directory",
+    "name": "Redes",
+    "files": [
+      {
+        "id": "1",
+        "type": "file",
+        "name": "Practica 2.docx"
+      },
+      {
+        "id": "2",
+        "type": "file",
+        "name": "Practica 3.docx"
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "type": "directory",
+    "name": "Lenguajes",
+    "files": [
+      {
+        "id": "1",
+        "type": "file",
+        "name": "Practica 2.docx"
+      }
+    ]
+  }
+]
