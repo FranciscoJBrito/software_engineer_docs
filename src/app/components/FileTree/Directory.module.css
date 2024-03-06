@@ -5,6 +5,13 @@
   margin: 8px 0px;
 }
 
+.plus_minus_icon_container {
+      display: flex;
+      width: 30px;
+      align-items: center;
+      justify-content: flex-start;
+}
+
 .folder_content_container_show {
   display: block;
   animation: fadeIn 0.2s ease-in-out;
@@ -18,6 +25,7 @@
   display: flex;
   align-items: center;
   height: 35px;
+  margin-left: 30px;
 }
 
 .folder_name {

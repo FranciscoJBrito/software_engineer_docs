@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import styles from "./Directory.module.css";
 import PlusMinusIcon from "./PlusMinusIcon";
 import { useState } from "react";
@@ -14,11 +14,13 @@ const Directory = ({ name, files }: { name: string; files: any[] }) => {
   const [openFolder, setOpenFolder] = useState(false);
   const handleOpenFolder = () => {
     setOpenFolder(!openFolder);
-  }
+  };
   return (
     <div>
       <div className={styles.folder_container} onClick={handleOpenFolder}>
-        <PlusMinusIcon state={openFolder} />
+        <div className={styles.plus_minus_icon_container}>
+          <PlusMinusIcon state={openFolder} />
+        </div>
         <svg
           data-testid="geist-icon"
           fill="none"
@@ -36,7 +38,13 @@ const Directory = ({ name, files }: { name: string; files: any[] }) => {
         <p className={styles.folder_name}>{name}</p>
       </div>
 
-      <div className={openFolder ? styles.folder_content_container_show : styles.folder_content_container_no_show}>
+      <div
+        className={
+          openFolder
+            ? styles.folder_content_container_show
+            : styles.folder_content_container_no_show
+        }
+      >
         {files.map((file) => {
           return (
             <div key={file.id} className={styles.folder_file_container}>
