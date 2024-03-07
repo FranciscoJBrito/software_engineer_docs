@@ -7,7 +7,7 @@
 
 .plus_minus_icon_container {
       display: flex;
-      width: 30px;
+      width: 25px;
       align-items: center;
       justify-content: flex-start;
 }
@@ -25,7 +25,7 @@
   display: flex;
   align-items: center;
   height: 35px;
-  margin-left: 30px;
+  margin-left: 25px;
 }
 
 .folder_name {
