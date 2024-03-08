@@ -21,9 +21,11 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <div className={styles.main_layout_container}>
-          <Sidebar />
           <NavBar />
-          <div>{children}</div>
+          <div className={styles.content_container}>
+            <Sidebar />
+            {children}
+          </div>
         </div>
       </body>
     </html>

@@ -1,3 +1,10 @@
 .main_layout_container {
+      display: block;
+
+}
+
+.content_container {
       display: flex;
+      justify-content: space-between;
+      height: 90vh;
 }
